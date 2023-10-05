@@ -84,6 +84,21 @@ This is a RESTful API for a remote device management system.
 
    - This dashboard connects to the WebSocket server to display real-time updates of remote devices.
 
+### Testing the APIs
+
+- Create a superuser:
+
+   ```
+   python manage.py createsuperuser
+   ```
+
+- You can use the Postman collection in the root directory to test the APIs:
+
+   ```
+   RMM.postman_collection.json
+   ```
+
+
 ## Authentication
 
 - This API uses JSON Web Tokens (JWT) for authentication.
